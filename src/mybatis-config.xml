@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org/DTD config 3.0//EN"
+        "http://www.mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    给这个包下面的所有的类起一个别名。名字为类的小写单词。这个别名可以在SQL映射文件中进行使用（即XXmapper.xml里面）。-->
+    <typeAliases>
+        <package name="com.stx.po"/>
+    </typeAliases>
+</configuration>
